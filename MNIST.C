@@ -418,66 +418,8 @@ void gradient_descent(double alpha, int iterations) {
 }
 int main() {
 
-    //print data from arays befor freeing
-
-    // Print the initialized parameters for testing
-/*
-printf("W1:\n");
-for (int i = 0; i < hidden_units; i++) {
-    for (int j = 0; j < input_size; j++) {
-        printf("%f ", W1[i * input_size + j]);
-    }
-    printf("\n");
-}
-
-printf("\nb1:\n");
-for (int i = 0; i < hidden_units; i++) {
-    printf("%f\n", b1[i]);
-}
-
-printf("\nW2:\n");
-for (int i = 0; i < num_classes; i++) {
-    for (int j = 0; j < hidden_units; j++) {
-        printf("%f ", W2[i * hidden_units + j]);
-    }
-    printf("\n");
-}
-
-printf("\nb2:\n");
-for (int i = 0; i < num_classes; i++) {
-    printf("%f\n", b2[i]);
-}
-
-// Print Z1, A1, Z2, and A2 before freeing their memory
-printf("\nZ1:\n");
-for (int i = 0; i < m * hidden_units; i++) {
-    printf("%f ", Z1[i]);
-}
-printf("\n");
-
-printf("\nA1:\n");
-for (int i = 0; i < m * hidden_units; i++) {
-    printf("%f ", A1[i]);
-}
-printf("\n");
-
-printf("\nZ2:\n");
-for (int i = 0; i < m * num_classes; i++) {
-    printf("%f ", Z2[i]);
-}
-printf("\n");
-
-printf("\nA2:\n");
-for (int i = 0; i < m * num_classes; i++) {
-    printf("%f ", A2[i]);
-}
-printf("\n");
-
-*/
-
     int iterations = 5000;
     double alpha = 0.1;
     gradient_descent(alpha, iterations);
-    return 0;
     return 0;
 }
