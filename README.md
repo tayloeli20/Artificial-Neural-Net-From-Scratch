@@ -1,5 +1,3 @@
-Sure! Here's the README in Markdown format:
-
 # MNIST Digit Recognition with Neural Network
 
 ## Description
