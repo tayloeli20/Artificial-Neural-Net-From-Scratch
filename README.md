@@ -67,4 +67,4 @@ This project is licensed under the MIT License.
 
 ## Contact Information
 
-For any questions or feedback, please keep them to youself
+For any questions or feedback, please reach out.
